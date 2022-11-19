@@ -1,0 +1,46 @@
+baseURL: "https://www.jarrod.website/"
+languageCode: "en-us"
+title: "Resume | Jarrod Gainor"
+disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
+theme: ['resume-a4','papermod']
+
+
+
+params:
+  useFontAwesome: true
+  css:
+    - custom.scss
+  header:
+    avatar: avatar.jpg
+    contact: true
+    tagline: true
+    links: true
+  side:
+    - feature: skills
+      widget: word-list
+      style: compact # list, compact, title-list
+    - feature: interests
+      title: Homelab Experience
+      widget: word-list
+      style: list
+    - feature: education
+
+  pages:
+    - features:
+        - feature: about
+          title: About Me
+        - feature: experience
+          title: Work Experience
+        - feature: awards
+          widget: word-list
+          style: list
+
+  footer:
+    show: true
+    credits: true
+    links:
+      - prefix: Contact Jarrod on
+        title: Linkedin
+        url: 'https://www.linkedin.com/in/jarrod-gainor-02994364/'
+        icon: fab fa-linkedin
+
