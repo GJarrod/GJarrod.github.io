@@ -8,8 +8,6 @@ theme: ['resume-a4','papermod']
 
 params:
   useFontAwesome: true
-  css:
-    - custom.scss
   header:
     avatar: avatar.jpg
     contact: true
