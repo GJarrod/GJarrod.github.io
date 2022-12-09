@@ -38,10 +38,10 @@ interests:
 #  - (Blog here)[https://github.com/GJarrod]
   - PfSense/OpnSense
   - ESXI/Proxmox
+  - AWS EC2
   - Unraid  
   - NGINX Load Balancing
   - LibreNMS and Oxidized
-  - Web Hosting
   - Cloudflare WAF
   - Kubernetes Clustering
 awards:
