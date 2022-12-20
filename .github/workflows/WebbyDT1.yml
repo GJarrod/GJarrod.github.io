@@ -13,7 +13,7 @@ jobs:
           HOST: 65.128.213.245
           USERNAME: ${{ secrets.USERNAME }}
           PORT: 4090
-          KEY: ${{ secrets.KEY }}
+          passphrase: ${{ secrets.PASSWORD }}
         with:
           source: "dest/*"
           target: "/var/www/jarrod.website/public_html"
