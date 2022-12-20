@@ -10,7 +10,7 @@ jobs:
       - name: deploy website to WebbyDT1
         uses: appleboy/scp-action@master
         env:
-          HOST: veepeeehn.jarrod.website
+          HOST: 65.128.213.245
           USERNAME: ${{ secrets.USERNAME }}
           PORT: 4090
           KEY: ${{ secrets.KEY }}
