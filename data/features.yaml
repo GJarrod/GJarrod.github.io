@@ -28,7 +28,7 @@ skills:
 
   - groupName: System Administration
     list:
-      - Windows Server 2008-2019
+      - Windows Server 2008-2022
       - WSUS and Windows Update for Business
       - Group Policy
       - Microsoft 365 Suite
