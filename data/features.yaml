@@ -1,0 +1,52 @@
+about:
+  name: Jarrod Gainor
+  tagline: Minneapolis, MN
+  email: jarrod@jarrod.website
+  links:
+    - title: Jarrod Gainor
+      url: https://www.linkedin.com/in/jarrod-gainor-02994364/
+      icon: fab fa-linkedin
+    - title: Github.com/GJarrod
+      url: https://github.com/GJarrod
+      icon: fab fa-github
+  details: I'm an avid techie that loves to do obstacle course races. The email at the top is the best way to reach me!
+
+skills:
+  - groupName: Networking
+    list:
+      - Cisco switching
+      - Watchguard Firewalls
+      - Ruckus SmartZone, ZoneDirector, and Analytics
+      - Oracle Talari SD-WAN 
+      - PRTG Network Monitoring
+
+  - groupName: Network Security
+    list:
+      - Pentera Automated Pentesting
+      - Vectra and Darktrace IDS
+      - Okta Identity Platform
+
+  - groupName: System Administration
+    list:
+      - Windows Server 2008-2022
+      - WSUS and Windows Update for Business
+      - Group Policy
+      - Microsoft 365 Suite
+      - Azure AD Administration
+
+interests:
+#  - (Blog here)[https://github.com/GJarrod]
+  - PfSense/OpnSense
+  - ESXI/Proxmox
+  - AWS EC2
+  - Github Actions
+  - NGINX Load Balancing
+  - LibreNMS and Oxidized
+  - Cloudflare WAF
+awards:
+  - title: "Premium Waters, Inc."
+    date: 2019
+    list:
+        - 2019 Wave Award (Employee of the Year) 
+        - 2019 4th Quarter Ripple Award (Employee of the Quarter)
+        - 2019 4th Quarter Droplet Award (Corporate Employee of the Quarter)
