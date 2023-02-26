@@ -7,7 +7,7 @@ theme: ['resume-a4','papermod']
 
 
 params:
-  useFontAwesome: false
+  useFontAwesome: true
   header:
     avatar: avatar.jpg
     contact: true
