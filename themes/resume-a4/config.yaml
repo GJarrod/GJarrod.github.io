@@ -84,5 +84,5 @@ params:
       - prefix: Contact me on
         title: Linkedin
         url: 'https://www.linkedin.com/in/jarrod-gainor-02994364/'
-        icon: fab fa-linkedin
+        icon: fab fa-linkedin-in
 
