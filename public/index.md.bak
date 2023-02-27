@@ -1,7 +1,0 @@
----
-title: "REZOOMAY"
-draft: false
----
-content
-{{< embed-pdf url="./static/Resume-JarrodGainor-Webpage.pdf" hidePaginator="true"  hideLoader="true">}}
-content
