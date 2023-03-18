@@ -1,0 +1,10 @@
+name: PushToHomelab
+on: push
+jobs:
+  deploy:
+    runs-on: homelab
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Copy file to runners folder
+        run: cp -r ./public/* /var/www/html/jarrod.website/public_html/
