@@ -22,7 +22,7 @@ jobs:
         run: hugo
         
       - name: List Folders
-        run: lsf
+        run: ls
 
       - name: Copy Public Folder
         run: cp -r public/* /var/www/html/jarrod.website/public_html/
