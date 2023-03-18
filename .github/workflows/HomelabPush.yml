@@ -1,22 +1,27 @@
 name: CI
 
-on: push
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - name: Git checkout
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Update theme
+      - name: Update Theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
         run: git submodule update --init --recursive
 
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.92.2"
           extended: true
-          
-      - name: Copy file to runners folder
-        run: cp -r ./public/* /var/www/html/jarrod.website/public_html/
+
+      - name: Copy Public Folder
+        run: cp -r public/* /var/www/html/jarrod.website/public_html/
+
