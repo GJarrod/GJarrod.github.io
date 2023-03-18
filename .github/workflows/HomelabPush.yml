@@ -19,10 +19,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo
-        
-      - name: LS
-        run: ls
+        run: hugo ; lsf
 
       - name: Copy Public Folder
         run: cp -r public/* /var/www/html/jarrod.website/public_html/
